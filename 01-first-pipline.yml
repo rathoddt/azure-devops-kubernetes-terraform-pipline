@@ -29,5 +29,5 @@ jobs:
   - job: Job3
     dependsOn: Job2
     steps:
-     - script: echo THIS IS JOB 3*****
+     - script: echo This is job no 3 --------------
        displayName: 'Run a one-line script'
