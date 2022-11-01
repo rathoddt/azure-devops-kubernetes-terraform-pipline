@@ -28,7 +28,7 @@ stages:
 
 - stage: Prod_Deploy
   dependsOn:
-  - DevDeployJob
+  - Dev_Deploy
   - QA_Deploy
   jobs:
   - job: ProdDeployJob
